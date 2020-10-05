@@ -20,7 +20,7 @@ c ) Tests paketinin altında GlbPantsTest isminde bir tane class oluşturun.
 
 public class GlbPantsTest {
 
-    @Test
+    @Test (groups = "glbtest")
     public void test(){
         Driver.getDriver().get(ConfigurationReader.getProperty("glb_pantolon"));
         GlbPantsPage glbPantsPage = new GlbPantsPage();

@@ -9,6 +9,7 @@ import java.util.List;
 public class GlbPantsPage {
 
     public GlbPantsPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class GlbKitPage {
 
     public GlbKitPage(){
+
         PageFactory.initElements(Driver.getDriver() , this);
     }
 

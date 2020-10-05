@@ -22,7 +22,7 @@ c ) Bu webelementlerin içerdiği yazıları ekrana yazdırın.
  */
 public class GlbKitTest {
 
-    @Test
+    @Test (groups = "glbtest")
     public void test(){
         Driver.getDriver().get(ConfigurationReader.getProperty("glb_kitchen"));
         GlbKitPage glbKitPage = new GlbKitPage();
